@@ -1,0 +1,258 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+	
+	<title>Sample Submission Form</title>
+	
+	<link rel='stylesheet' type='text/css' href='css/style.css' />
+	<link rel='stylesheet' type='text/css' href='css/print.css' media="print" />
+	<script type='text/javascript' src='js/jquery-1.3.2.min.js'></script>
+	<script type='text/javascript' src='js/example.js'></script>
+</head>
+<body>
+	<div id="page-wrap">
+		<div class="no-print" style="height: 20px; width: 77%; margin: 0px 0; background: #00BFFF; text-align: center; color: black; font: bold 15px Helvetica, Sans-Serif; text-decoration: uppercase; letter-spacing: 1px; padding: 0px 0px;">
+		 Goto :  <a href="www.amraresearch.com" >  www.AMRAResearch.com </a>	 &nbsp;OR &nbsp;  <a href="javascript:window.print();" >  Print  this page </a>	
+		</div>
+				 
+			<div id="header">
+
+				   <div class="container" >
+							 <div class="row">
+								<div  id="logo">
+							   		 <a href="">
+							   		     <img style=" height: 100px !important;  width: 150px !important;"  src="images/logo.png" alt="AMRA Research Consultancy and Services" />
+							    		</a>
+							  	 </div>
+						                <div   style="  background-color: white !important">
+						                  	<h1 class="animated fadeInDown" style="font-size: 40px;letter-spacing: 8px;margin: 10px; color : #00BFFF;font-family : Times New Roman" >AMRA <span>Research</span></h1>
+									<p class="animated fadeInDown delay-05s" style="font-size: 20px;letter-spacing: 8px;margin: 10px;font-family : Times New Roman;color:#FF8C00" >Consultancy <em>and</em> Services</p>              
+						               </div>		     
+			            			 </div>							
+				  </div>	
+			</div>		
+	    <div style="clear:both"></div>		
+	    <div id="customer">
+            <table id="meta">
+                <tr>
+                    <td class="meta-head">Client: </td>
+                    <td colspan="3"><div class="due"><textarea id="client"></textarea><div></td>
+                </tr>
+                <tr>
+                    <td class="meta-head">Date of Submission:</td>
+                    <td colspan="3"><div class="due"><textarea disabled id="date" ></textarea></div></td>
+                </tr>
+                <tr>
+                    <td class="meta-head">Name and Address:</td>
+                    <td colspan="3"><div class="due" ><textarea id="name"></textarea></div></td>
+                </tr>
+                <tr>
+                    <td class="meta-head">Email-ID:</td>
+                    <td colspan="3"><div class="due"><textarea id="emailid"></textarea></div></td>
+                </tr>
+		<tr>
+                    <td class="meta-head">Phone number:</td>
+                    <td colspan="3"><div class="due"><textarea id="phoneno"></textarea></div></td>
+                </tr>
+		<tr>
+                    <td class="meta-head">Client order number / reference number: </td>
+                    <td colspan="3"><div class="due" ><textarea id="clientordernumber"></textarea></div></td>
+                </tr>
+		<tr>
+                  <td class="meta-head">Purpose:  </td>
+                  <td><div class="due" style="width:130px !important">
+			<input type="checkbox" id="Industrial" >&nbsp;&nbsp;Industrial</input>	
+		</div></td>
+		<td colspan="3"><div class="due" style="width:130px !important">
+			<input type="checkbox" id="Academic" >&nbsp;&nbsp;Academic</input>	
+		</div></td>	
+                </tr>
+		<tr>
+                    <td class="meta-head">Testing Requested:  </td>
+                    <td colspan="3"><div class="due" ><textarea id="testreq"></textarea></div></td>
+                </tr>
+
+		<tr>
+                    <td class="meta-head">No. of Samples:   </td>
+                    <td colspan="3"><div class="due" ><textarea id="noofsample"></textarea></div></td>
+                </tr>
+		<tr>
+                    <td class="meta-head">Special Handling Requirements/Instructions (if any):   </td>
+                    <td colspan="3"><div class="due"  ><textarea id="noofsample"></textarea></div></td>
+                </tr>
+		<tr >
+                   	 <td rowspan="3"  class="meta-head">Special Safety Concerns: </td>
+	                  <td><div class="due" style="width:130px !important">
+				<input type="checkbox" id="Toxic" >&nbsp;&nbsp;Toxic</input>	
+			</div></td>
+			<td colspan="2"><div class="due" style="width:130px !important">
+				<input type="checkbox" id="Non-Toxic" >&nbsp;&nbsp;Non-Toxic</input>	
+			</div></td>	
+                </tr>
+		<tr>			
+	                  <td><div class="due" style="width:130px !important">
+				<input type="checkbox" id="Carcinogenic" >&nbsp;&nbsp;Carcinogenic</input>	
+			</div></td>
+			<td ><div class="due" style="width:130px !important">
+				<input type="checkbox" id="Radioactive" >&nbsp;&nbsp;Radioactive</input>	
+			</div></td>	
+			<td ><div class="due" style="width:130px !important">
+				<input type="checkbox" id="Other" >&nbsp;&nbsp;Other</input>	
+				<textarea id="testreq"></textarea>
+			</div></td>	
+                </tr>
+		<tr>			
+	                  <td><div class="due" style="width:130px !important">
+				<input type="checkbox" id="Hazardous" >&nbsp;&nbsp;Hazardous</input>	
+			</div></td>
+			<td colspan="2"><div class="due" style="width:130px !important">
+				<input type="checkbox" id="Non-Hazardous" >&nbsp;&nbsp;Non-Hazardous</input>	
+			</div></td>	
+                </tr>
+
+		
+
+		<tr>
+                    <td class="meta-head">Sample Type:  </td>
+                       <td><div class="due" style="width:130px !important">
+				<input type="checkbox" id=" Solid" >&nbsp;&nbsp;Solid</input>	
+			</div></td>
+			<td colspan="2"><div class="due" style="width:130px !important">
+				<input type="checkbox" id="Liquid " >&nbsp;&nbsp;Liquid </input>	
+			</div></td>
+                </tr>
+
+		<tr >
+                    <td  rowspan="2" class="meta-head">Nature of sample:  </td>
+                    <td><div class="due" style="width:130px !important">
+				<input type="checkbox" id="Powder" >&nbsp;&nbsp;Powder</input>	
+			</div></td>
+			<td><div class="due" style="width:130px !important">
+				<input type="checkbox" id="Film " >&nbsp;&nbsp;Film </input>	
+			</div></td>
+			<td ><div class="due" style="width:130px !important">
+				<input type="checkbox" id="Disc " >&nbsp;&nbsp;Disc </input>	
+			</div></td>
+
+                </tr>
+		<tr>
+                   
+                    <td><div class="due" style="width:130px !important">
+				<input type="checkbox" id="Magnetic" >&nbsp;&nbsp;Magnetic</input>	
+			</div></td>
+			<td colspan="2"><div class="due" style="width:130px !important">
+				<input type="checkbox" id="Nonmagnetic " >&nbsp;&nbsp;Nonmagnetic </input>	
+			</div></td>
+                </tr>
+		<tr>
+                    <td class="meta-head">Measurement Specification: </td>
+                    <td colspan="3"><div class="due"  ><textarea id="meseaurespec"></textarea></div></td>
+                </tr>
+
+            </table>
+		</div>
+	
+		<!--table id="items">
+		
+		  <tr>
+		      <th>Item</th>
+		      <th>Description</th>
+		      <th>Unit Cost</th>
+		      <th>Quantity</th>
+		      <th>Price</th>
+		  </tr>
+		  
+		  <tr class="item-row">
+		      <td class="item-name"><div class="delete-wpr"><textarea>Web Updates</textarea><a class="delete" href="javascript:;" title="Remove row">X</a></div></td>
+		      <td class="description"><textarea>Monthly web updates for http://widgetcorp.com (Nov. 1 - Nov. 30, 2009)</textarea></td>
+		      <td><textarea class="cost">$650.00</textarea></td>
+		      <td><textarea class="qty">1</textarea></td>
+		      <td><span class="price">$650.00</span></td>
+		  </tr>
+		  
+		  <tr class="item-row">
+		      <td class="item-name"><div class="delete-wpr"><textarea>SSL Renewals</textarea><a class="delete" href="javascript:;" title="Remove row">X</a></div></td>
+
+		      <td class="description"><textarea>Yearly renewals of SSL certificates on main domain and several subdomains</textarea></td>
+		      <td><textarea class="cost">$75.00</textarea></td>
+		      <td><textarea class="qty">3</textarea></td>
+		      <td><span class="price">$225.00</span></td>
+		  </tr>
+		  
+		  <tr id="hiderow">
+		    <td colspan="5"><a id="addrow" href="javascript:;" title="Add a row">Add a row</a></td>
+		  </tr>
+		  
+		  <tr>
+		      <td colspan="2" class="blank"> </td>
+		      <td colspan="2" class="total-line">Subtotal</td>
+		      <td class="total-value"><div id="subtotal">$875.00</div></td>
+		  </tr>
+		  <tr>
+
+		      <td colspan="2" class="blank"> </td>
+		      <td colspan="2" class="total-line">Total</td>
+		      <td class="total-value"><div id="total">$875.00</div></td>
+		  </tr>
+		  <tr>
+		      <td colspan="2" class="blank"> </td>
+		      <td colspan="2" class="total-line">Amount Paid</td>
+
+		      <td class="total-value"><textarea id="paid">$0.00</textarea></td>
+		  </tr>
+		  <tr>
+		      <td colspan="2" class="blank"> </td>
+		      <td colspan="2" class="total-line balance">Balance Due</td>
+		      <td class="total-value balance"><div class="due">$875.00</div></td>
+		  </tr>
+		
+		</table-->		
+	
+	</div>
+<div id="page-wrap">
+		<div id="customer">
+		            <table id="meta">
+		
+				<tr>
+		                    <td class="meta-head">Sample Specification/Composition:  </td>
+		                    <td ><div class="due" style="width:410px !important" ><textarea id="samplespec"></textarea></div></td>
+		                </tr>
+
+				<tr>
+		                    <td class="meta-head">Payment Details:  </td>
+		                    <td colspan="3" ><div class="due"><textarea id="paymentdetails"></textarea></div></td>
+		                </tr>
+		
+				<tr>
+		                    <td class="meta-head">Further details, if any:  </td>
+		                    <td colspan="3"><div class="due"><textarea id="furtherdetails"></textarea></div></td>
+		                </tr>
+		
+		            </table>							
+		</div>	
+		<div id="customer">		
+			<table id="signature">
+					<td class="signature-head" >
+						Signature with date: 
+						<textarea disabled> </textarea>
+					</td>				
+			</table>
+		</div>
+		<div id="terms">
+		  <h5>Terms</h5>
+		  
+		</div>
+		<div>
+			<p>
+				<span> Kindly check whether requisition form/cover letter is attached with sample before shipment.</span><br> <br>			
+				<span> Confidential Document @ AMRA Research Consultancy and Services</span> <br> <br>
+				<span>©2017 AMRA Research Consultancy and Services. All rights reserved. AMRA Research Consultancy and Services artifacts and all other related logos are either registered trademarks or trademarks of AMRA Research Consultancy and Services in India. All other company and service names are the property of their respective holders and may be registered trademarks or trademarks in India or other countries. </span>
+			</p>
+		</div>
+	</div>
+	
+</body>
+
+</html>
