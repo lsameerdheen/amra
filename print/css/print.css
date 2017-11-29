@@ -3,15 +3,12 @@
   display: none;
 }
 
-@media print
-{
-	.no-print, .no-print *
-	{
-		display: none !important;
-	}
-}
-
 @media print {
+	
+  .no-print, .no-print * 
+   {
+	   display: none !important;	
+   }
   ::-webkit-input-placeholder { /* WebKit browsers */
       color: transparent;
   }
